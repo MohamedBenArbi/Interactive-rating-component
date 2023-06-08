@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #141519;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Overpass;
+}
+
+
+.component{
+    background-color: #1e252f;
+    width: 27%;
+    height: 50%;
+    border-radius: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    min-width: 250px ; 
+}
+
+.star{
+    width: 15px;
+    height: 15px;
+}
+
+
+.star-container{
+    background-color: #262f38;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin: 20px 0px 10px 0px;
+}
+
+.title-thanks{
+    margin: 20px 0px 10px 0px;
+    text-align: center;
+}
+
+.desc{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(217, 12%, 63%);
+    
+}
+
+
+.desc2{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: hsl(217, 12%, 63%);
+    text-align: center;
+}
+
+.rating{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin:0 25px 0 0px;
+   
+}
+
+
+.opt{
+    border: none;
+    background-color: #262f38;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl(217, 12%, 63%);
+}
+
+
+.submit{
+    height: 40px;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    
+    width: 100%;
+    align-self: center;
+   
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%) ;
+    cursor: pointer;
+}
+
+.opt:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+
+
+a{
+    width: 100%;
+    text-decoration: none;
+     color: white;
+    letter-spacing: 2px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top :20px;
+}
+
+.thanks-image{
+    width: 50%;
+    align-self: center;
+    margin: 20px;
+}
+
+.rate-container{
+    color : hsl(25, 97%, 53%);
+    background-color: #262f38 ;
+    border-radius: 10px;
+    width: 60%;
+    font-size: 14px;
+    align-self: center;
+    text-align: center;
+}
+
+
+
+

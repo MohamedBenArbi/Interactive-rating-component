@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="styles.css" />
+
+  
+  <title>Interactive rating component</title>
+
+</head>
+<body>
+  
+  <div class="component">
+
+    <img class="thanks-image" src="./images/illustration-thank-you.svg" />
+<div class="rate-container">
+<p id="rated">You selected X out of 5</p>
+
+</div>
+    <div>
+    <h2 class="title-thanks">Thank you!</h2>
+    <p class="desc2">We appreciate you taking the time to give a rating if you ever need more support, don't hesistate to get in touch!</p>
+  </div>
+
+  
+  </div>
+
+  <script>
+  
+  const id = localStorage.getItem("Rating")
+
+   document.getElementById("rated").innerHTML = "You selected " + id + " out of 5"
+
+  </script>
+</body>
+</html>
